@@ -1,0 +1,4 @@
+[oslo.config.opts]
+castellan.tests.functional.config = castellan.tests.functional.config:list_opts
+castellan.config = castellan.options:list_opts
+

@@ -1,0 +1,24 @@
+Metadata-Version: 1.0
+Name: XStatic-Angular-Gettext
+Version: 2.1.0.2
+Summary: Angular-Gettext 2.1.0 (XStatic packaging standard)
+Home-page: https://angular-gettext.rocketeer.be/
+Author: Thai Tran
+Author-email: tqtran@us.ibm.com
+License: (same as Angular-Gettext)
+Description: XStatic-Angular-Gettext
+        --------------
+        
+        Angular-Gettext javascript library packaged for setuptools (easy_install) / pip.
+        
+        This package is intended to be used by **any** project that needs these files.
+        
+        It intentionally does **not** provide any extra code except some metadata
+        **nor** has any extra requirements. You MAY use some minimal support code from
+        the XStatic base package, if you like.
+        
+        You can find more info about the xstatic packaging way in the package `XStatic`.
+        
+        
+Keywords: angular_gettext xstatic
+Platform: any

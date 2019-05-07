@@ -1,0 +1,10 @@
+[cliff.formatter.list]
+yaml = clifftablib.formatters:YamlFormatter
+json = clifftablib.formatters:JsonFormatter
+html = clifftablib.formatters:HtmlFormatter
+
+[cliff.formatter.show]
+yaml = clifftablib.formatters:YamlFormatter
+json = clifftablib.formatters:JsonFormatter
+html = clifftablib.formatters:HtmlFormatter
+

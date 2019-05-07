@@ -1,0 +1,34 @@
+[console_scripts]
+carbonara-dump = gnocchi.carbonara:dump_archive_file
+gnocchi-api = gnocchi.cli:api
+gnocchi-metricd = gnocchi.cli:metricd
+gnocchi-statsd = gnocchi.cli:statsd
+gnocchi-upgrade = gnocchi.cli:upgrade
+
+[gnocchi.aggregates]
+moving-average = gnocchi.aggregates.moving_stats:MovingAverage
+
+[gnocchi.indexer]
+mysql = gnocchi.indexer.sqlalchemy:SQLAlchemyIndexer
+mysql+pymysql = gnocchi.indexer.sqlalchemy:SQLAlchemyIndexer
+null = gnocchi.indexer.null:NullIndexer
+postgresql = gnocchi.indexer.sqlalchemy:SQLAlchemyIndexer
+
+[gnocchi.indexer.sqlalchemy.resource_type_attribute]
+bool = gnocchi.indexer.sqlalchemy_extension:BoolSchema
+number = gnocchi.indexer.sqlalchemy_extension:NumberSchema
+string = gnocchi.indexer.sqlalchemy_extension:StringSchema
+uuid = gnocchi.indexer.sqlalchemy_extension:UUIDSchema
+
+[gnocchi.storage]
+ceph = gnocchi.storage.ceph:CephStorage
+file = gnocchi.storage.file:FileStorage
+null = gnocchi.storage.null:NullStorage
+swift = gnocchi.storage.swift:SwiftStorage
+
+[oslo.config.opts]
+gnocchi = gnocchi.opts:list_opts
+
+[tempest.test_plugins]
+gnocchi_tests = gnocchi.tempest.plugin:GnocchiTempestPlugin
+

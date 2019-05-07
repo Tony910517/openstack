@@ -1,0 +1,6 @@
+[oslo.config.opts]
+osprofiler = osprofiler.opts:list_opts
+
+[console_scripts]
+osprofiler = osprofiler.cmd.shell:main
+

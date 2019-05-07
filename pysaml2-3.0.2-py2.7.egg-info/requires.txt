@@ -1,0 +1,19 @@
+decorator
+requests >= 1.0.0
+paste
+zope.interface
+repoze.who
+pycrypto >= 2.5
+pytz
+pyOpenSSL
+python-dateutil
+six
+
+[testing]
+mongodict
+pyasn1
+pymongo==3.0.1
+python-memcached >= 1.51
+pytest
+mako
+webob

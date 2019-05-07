@@ -1,0 +1,3 @@
+[paste.filter_factory]
+swift3 = swift3.middleware:filter_factory
+

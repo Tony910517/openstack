@@ -1,0 +1,4 @@
+[console_scripts]
+sqlalchemy-migrate-repository = migrate.versioning.migrate_repository:main
+sqlalchemy-migrate = migrate.versioning.shell:main
+

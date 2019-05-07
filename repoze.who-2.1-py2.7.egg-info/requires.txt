@@ -1,0 +1,9 @@
+WebOb
+zope.interface
+setuptools
+
+[testing]
+WebOb
+zope.interface
+nose
+coverage

@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: castellan
+Version: 0.4.0
+Summary: Generic Key Manager interface for OpenStack
+Home-page: http://www.openstack.org/
+Author: OpenStack
+Author-email: openstack-dev@lists.openstack.org
+License: UNKNOWN
+Description: =========
+        Castellan
+        =========
+        
+        Generic Key Manager interface for OpenStack.
+        
+        * License: Apache License, Version 2.0
+        * Documentation: http://docs.openstack.org/developer/castellan
+        * Source: http://git.openstack.org/cgit/openstack/castellan
+        * Bugs: http://bugs.launchpad.net/castellan
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4

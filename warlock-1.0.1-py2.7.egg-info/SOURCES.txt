@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+test/test_core.py
+warlock/__init__.py
+warlock/core.py
+warlock/exceptions.py
+warlock/model.py
+warlock.egg-info/PKG-INFO
+warlock.egg-info/SOURCES.txt
+warlock.egg-info/dependency_links.txt
+warlock.egg-info/top_level.txt

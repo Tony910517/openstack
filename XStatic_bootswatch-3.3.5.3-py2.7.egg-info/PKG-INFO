@@ -1,0 +1,25 @@
+Metadata-Version: 1.0
+Name: XStatic-bootswatch
+Version: 3.3.5.3
+Summary: bootswatch 3.3.5 (XStatic packaging standard)
+Home-page: http://bootswatch.com
+Author: Diana Whitten
+Author-email: hurgleburgler@gmail.com
+License: (same as bootswatch)
+Description: 
+        XStatic-bootswatch
+        ------------------
+        
+        bootswatch javascript library packaged for setuptools (easy_install) / pip.
+        
+        This package is intended to be used by **any** project that needs these files.
+        
+        It intentionally does **not** provide any extra code except some metadata
+        **nor** has any extra requirements. You MAY use some minimal support code from
+        the XStatic base package, if you like.
+        
+        You can find more info about the xstatic packaging way in the package
+        `XStatic`.
+        
+Keywords: bootswatch xstatic
+Platform: any

@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: cliff-tablib
+Version: 1.1
+Summary: tablib formatters for cliff
+Home-page: https://github.com/dreamhost/cliff-tablib
+Author: Doug Hellmann
+Author-email: doug.hellmann@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Provides: clifftablib

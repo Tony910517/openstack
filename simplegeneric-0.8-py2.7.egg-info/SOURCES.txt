@@ -1,0 +1,10 @@
+README.txt
+setup.cfg
+setup.py
+simplegeneric.py
+ez_setup/README.txt
+ez_setup/__init__.py
+simplegeneric.egg-info/PKG-INFO
+simplegeneric.egg-info/SOURCES.txt
+simplegeneric.egg-info/dependency_links.txt
+simplegeneric.egg-info/top_level.txt

@@ -1,0 +1,25 @@
+[oslo.config.opts]
+glance.store = glance_store.backend:_list_opts
+
+[glance_store.drivers]
+glance.store.sheepdog.Store = glance_store._drivers.sheepdog:Store
+glance.store.swift.Store = glance_store._drivers.swift:Store
+http = glance_store._drivers.http:Store
+sheepdog = glance_store._drivers.sheepdog:Store
+glance.store.http.Store = glance_store._drivers.http:Store
+s3 = glance_store._drivers.s3:Store
+glance.store.s3.Store = glance_store._drivers.s3:Store
+glance.store.vmware_datastore.Store = glance_store._drivers.vmware_datastore:Store
+glance.store.rbd.Store = glance_store._drivers.rbd:Store
+file = glance_store._drivers.filesystem:Store
+glance.store.filesystem.Store = glance_store._drivers.filesystem:Store
+cinder = glance_store._drivers.cinder:Store
+rbd = glance_store._drivers.rbd:Store
+swift = glance_store._drivers.swift:Store
+glance.store.cinder.Store = glance_store._drivers.cinder:Store
+vmware = glance_store._drivers.vmware_datastore:Store
+no_conf = glance_store.tests.fakes:UnconfigurableStore
+
+[console_scripts]
+glance-rootwrap = oslo_rootwrap.cmd:main
+

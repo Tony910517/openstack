@@ -1,0 +1,4 @@
+pbr>=1.6
+six>=1.9.0
+debtcollector>=1.2.0
+PrettyTable<0.8,>=0.7

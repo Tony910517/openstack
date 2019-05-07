@@ -1,0 +1,10 @@
+
+
+[argon2]
+argon2_cffi>=16.2
+
+[totp]
+cryptography
+
+[bcrypt]
+bcrypt>=3.1.0

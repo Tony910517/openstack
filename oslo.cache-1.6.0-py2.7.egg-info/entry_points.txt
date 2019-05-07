@@ -1,0 +1,3 @@
+[oslo.config.opts]
+oslo.cache = oslo_cache._opts:list_opts
+

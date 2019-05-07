@@ -1,0 +1,6 @@
+[keystoneauth1.plugin]
+gnocchi-noauth = gnocchiclient.noauth:GnocchiNoAuthLoader
+
+[console_scripts]
+gnocchi = gnocchiclient.shell:main
+

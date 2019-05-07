@@ -1,0 +1,5 @@
+oslo.config>=3.7.0
+oslo.serialization>=1.10.0
+pytz>=2013.6
+six>=1.9.0
+debtcollector>=1.2.0
